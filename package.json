@@ -1,0 +1,15 @@
+{
+  "name": "sass-starter-pack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "iDeveloper Brandon",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
