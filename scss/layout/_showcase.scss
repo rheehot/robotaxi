@@ -1,0 +1,17 @@
+.showcase {
+  // grid-column: full-start/ full-end;
+
+  &__booking {
+    background-color: red;
+    grid-column: col-start 1 / col-end 3;
+  }
+
+  &__picture {
+    //background-image: url(../../dist/img/robotaxi.jpg);
+    grid-column: col-start 4 / full-end;
+
+    img {
+      width: 80%;
+    }
+  }
+}

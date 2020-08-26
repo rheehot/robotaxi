@@ -1,3 +1,8 @@
-.nav {
+.header {
   background-color: #222222;
+  grid-column: full-start/ full-end;
+}
+
+.logo {
+  width: 10%;
 }
