@@ -1,10 +1,12 @@
 {
-  "name": "sass-starter-pack",
+  "name": "tesla-robotaxi",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "watch:sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "devserver": "live-server",
+    "start": "npm-run-all --parallel devserver watch:sass"
   },
   "author": "iDeveloper Brandon",
   "license": "MIT",
