@@ -1,0 +1,34 @@
+//////////////////////////////////////////////////
+///////////// Modal section
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(73, 166, 233, 0.5);
+  place-items: center;
+  visibility: hidden;
+  z-index: -10;
+}
+
+.open-modal {
+  visibility: visible;
+  z-index: 10;
+}
+
+.modal-container {
+  background-color: $color-primary-white;
+  border-radius: 0.5rem;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80vw;
+  height: 50vh;
+  place-items: center;
+  position: relative;
+  display: grid;
+  grid-column: center-start/ center-end;
+  color: black;
+}

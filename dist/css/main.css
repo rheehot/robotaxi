@@ -36,7 +36,7 @@ body {
 .showcase__picture {
   grid-column: col-start 4 / full-end; }
   .showcase__picture img {
-    width: 80%; }
+    width: 100%; }
 
 .intro {
   background-color: greenyellow;
@@ -88,3 +88,32 @@ body {
 .footer {
   background-color: #f4f4f4;
   grid-column: full-start/ full-end; }
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(73, 166, 233, 0.5);
+  place-items: center;
+  visibility: hidden;
+  z-index: -10; }
+
+.open-modal {
+  visibility: visible;
+  z-index: 10; }
+
+.modal-container {
+  background-color: #fff;
+  border-radius: 0.5rem;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80vw;
+  height: 50vh;
+  place-items: center;
+  position: relative;
+  display: grid;
+  grid-column: center-start/ center-end;
+  color: black; }

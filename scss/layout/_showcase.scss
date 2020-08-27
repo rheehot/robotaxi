@@ -7,11 +7,10 @@
   }
 
   &__picture {
-    //background-image: url(../../dist/img/robotaxi.jpg);
     grid-column: col-start 4 / full-end;
 
     img {
-      width: 80%;
+      width: 100%;
     }
   }
 }

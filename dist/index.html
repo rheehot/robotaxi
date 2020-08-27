@@ -18,16 +18,34 @@
           <li><a href="#">Entertainment</a></li>
         </ul>
         <ul class="navigation--right">
-          <li>Register your car</li>
+          <li class="modal-btn">Register <br />your car</li>
+
+          <!-- Modal -->
+          <div class="modal-overlay">
+            <div class="modal-container">
+              <h2>Register your Tesla vehicle</h2>
+              <button class="btn-close">X</button>
+            </div>
+          </div>
+
           <button class="btn--red">
-            <a href="book.html">Book a ride</a>
+            <a href="book.html"
+              >Book <br />
+              a ride</a
+            >
           </button>
         </ul>
       </nav>
     </header>
 
     <!-- main content -->
-    <div class="showcase__booking"></div>
+    <div class="showcase__booking">
+      <ul>
+        <li>Distance</li>
+        <li>Time</li>
+        <li>Cost</li>
+      </ul>
+    </div>
 
     <div class="showcase__picture">
       <img src="img/robotaxi.jpg" alt="" />
@@ -49,5 +67,6 @@
 
     <!-- Footer -->
     <footer class="footer">footer</footer>
+    <script src="js/app.js"></script>
   </body>
 </html>
