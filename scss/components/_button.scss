@@ -1,0 +1,15 @@
+.btn--red {
+  background-color: $color-primary;
+  border: none;
+  align-self: stretch;
+  
+
+  a {
+    text-decoration: none;
+    color: $color-primary-white;
+  }
+}
+
+.btn--red:hover {
+  background-color: $color-primary-dark;
+}
