@@ -3,7 +3,37 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
     <title>Book your robotaxi</title>
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <img src="./img/tesla.png" alt="" class="logo" />
+    </header>
+    <div class="booking--container">
+      <form class="booking--form">
+        <div class="booking--form--step">
+          <ul>
+            <li><span>1</span>Journey Information</li>
+            <li><span>2</span>Select Vehicle</li>
+            <li><span>3</span>Payment</li>
+          </ul>
+        </div>
+        <div class="booking--form--info">
+          <h3>Journey Information</h3>
+          <div class="input-group"><label>Meeting point</label></div>
+        </div>
+
+        <div class="booking--form--options">
+          <h3>Options</h3>
+          <div class="input-group"><label>Meeting point</label></div>
+        </div>
+        <div class="booking--form--map">
+          <h3>Map</h3>
+          <div class="input-group"><label>Meeting point</label></div>
+        </div>
+        <input type="submit" value="Select Vehicle" class="form__btn" />
+      </form>
+    </div>
+  </body>
 </html>

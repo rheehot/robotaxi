@@ -1,0 +1,61 @@
+.booking--container {
+  width: 100%;
+}
+
+.input-group {
+}
+
+.booking--form {
+  width: 90%;
+  margin: 0 auto;
+  background: #fff;
+  border: 1px solid #eee;
+  h3 {
+    border-top: 2px solid #1080f2;
+  }
+
+  &--step {
+    width: 90%;
+    margin-bottom: 20px;
+    margin: 0 auto;
+    flex-direction: column;
+    background: #fff;
+    border: 1px solid #eee;
+    ul li {
+      list-style: none;
+    }
+  }
+
+  &--info {
+    width: 90%;
+    margin-bottom: 20px;
+    margin: 2rem auto;
+    background: #fff;
+    border: 1px solid #eee;
+  }
+
+  &--options {
+    width: 90%;
+    margin-bottom: 20px;
+    margin: 2rem auto;
+    background: #fff;
+    border: 1px solid #eee;
+  }
+
+  &--map {
+    width: 90%;
+    margin-bottom: 20px;
+    margin: 2rem auto;
+
+    background: #fff;
+    border: 1px solid #eee;
+  }
+}
+
+.form__btn {
+  background: #1080f2;
+  color: #fff;
+  padding: 10px 25px;
+  border-radius: 40px;
+  text-transform: uppercase;
+}
