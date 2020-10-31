@@ -2,17 +2,39 @@
   width: 100%;
 }
 
-.input-group {
+h3 {
+  border-bottom: 2px solid #1080f2;
+}
+
+.form--location {
+  border: 1px solid #eee;
+}
+
+.input--group {
+  width: 100%;
+  margin-bottom: 20px;
+  margin: 0 auto;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid #eee;
+
+  .form--label {
+    color: #999;
+    padding: 1rem 0 0 1.5rem;
+    font-size: 1.3rem;
+  }
+
+  .form--input {
+    padding: 5px 15px 10px;
+    border: 0;
+  }
 }
 
 .booking--form {
   width: 90%;
   margin: 0 auto;
   background: #fff;
-  border: 1px solid #eee;
-  h3 {
-    border-top: 2px solid #1080f2;
-  }
 
   &--step {
     width: 90%;
@@ -20,7 +42,6 @@
     margin: 0 auto;
     flex-direction: column;
     background: #fff;
-    border: 1px solid #eee;
     ul li {
       list-style: none;
     }
@@ -30,25 +51,24 @@
     width: 90%;
     margin-bottom: 20px;
     margin: 2rem auto;
+    flex-direction: column;
     background: #fff;
-    border: 1px solid #eee;
   }
 
   &--options {
     width: 90%;
     margin-bottom: 20px;
     margin: 2rem auto;
+    flex-direction: column;
     background: #fff;
-    border: 1px solid #eee;
   }
 
   &--map {
     width: 90%;
     margin-bottom: 20px;
     margin: 2rem auto;
-
+    flex-direction: column;
     background: #fff;
-    border: 1px solid #eee;
   }
 }
 
