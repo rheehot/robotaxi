@@ -2,13 +2,6 @@
   background-color: #14171c;
   height: 5rem;
 
-  .navigation {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 2rem;
-  }
-
   ul li {
     list-style: none;
   }
@@ -21,42 +14,5 @@
   width: 25%;
   @media (min-width: 600px) {
     width: 10%;
-  }
-}
-
-.navigation {
-  //////////////////////////////////////////////////
-  //////// Nav center
-  &--center {
-    display: flex;
-    li:not(:last-child) {
-      margin-right: 3rem;
-    }
-    a {
-      color: $color-primary-white;
-      text-decoration: none;
-    }
-  }
-
-  //////////////////////////////////////////////////
-  //////// Nav right
-  &--right {
-    display: flex;
-    margin-right: 1rem;
-    //align-self: stretch;
-
-    //align-items: center;
-
-    & > * {
-      cursor: pointer;
-      flex: 1;
-      text-align: center;
-    }
-
-    li {
-      line-height: 1.2;
-      text-align: center;
-      margin-right: 0.5rem;
-    }
   }
 }
