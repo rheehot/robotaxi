@@ -45,12 +45,32 @@
 
 .form--step {
   width: 90%;
-  margin-bottom: 20px;
   margin: 0 auto;
   flex-direction: column;
   background: #fff;
+  margin-bottom: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  ul {
+    display: flex;
+  }
+
   ul li {
+    display: block;
     list-style: none;
+    span {
+      background: red;
+      border-radius: 50%;
+      padding: 2rem;
+    }
+    small {
+      display: none;
+      @media (min-width: 600px) {
+        display: inline;
+      }
+    }
   }
 }
 
@@ -100,16 +120,26 @@
       height: 20rem;
       width: 100%;
       @media (min-width: 600px) {
-        height: 28rem;
+        height: 22.5rem;
       }
     }
   }
 }
 
 .form__btn {
-  background: #1080f2;
+  background: black;
   color: #fff;
   padding: 10px 25px;
   border-radius: 40px;
+  border: none;
   text-transform: uppercase;
+  margin: 0 auto;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width: 85%;
+  @media (min-width: 600px) {
+    width: 30rem;
+    grid-row-columns: 2;
+  }
 }
