@@ -14,7 +14,7 @@
         width: 25%;
         font-size: 1.5rem;
         list-style: none;
-        margin: 0.75rem;
+        margin: 0.75rem 0.75rem 0 0.75rem;
         font-weight: 500;
         cursor: pointer;
         i {
@@ -22,9 +22,11 @@
         }
       }
     }
+    .current {
+      border-bottom: 2px solid black;
+    }
   }
   ///////////////////////////////////////////////////// Header func features
-
 
   &__intro {
     width: 100%;
