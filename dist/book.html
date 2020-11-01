@@ -11,63 +11,96 @@
       <img src="./img/tesla.png" alt="" class="logo" />
     </header>
     <div class="booking--container">
+      <div class="form--step">
+        <ul>
+          <li><span>1</span>Journey Information</li>
+          <li><span>2</span>Select Vehicle</li>
+          <li><span>3</span>Payment</li>
+        </ul>
+      </div>
       <form class="booking--form">
-        <div class="booking--form--step">
-          <ul>
-            <li><span>1</span>Journey Information</li>
-            <li><span>2</span>Select Vehicle</li>
-            <li><span>3</span>Payment</li>
-          </ul>
-        </div>
-        <div class="booking--form--info">
-          <h3>Journey Information</h3>
-          <div class="form--location">
-            <div class="input--group">
-              <label class="form--label">Collection Address</label
-              ><input
-                type="text"
-                class="form--input"
-                placeholder="Type location..."
-              />
-            </div>
-            <div class="input--group">
-              <label class="form--label">Destination Address</label
-              ><input
-                type="text"
-                class="form--input"
-                placeholder="Type location..."
-              />
+        <div class="form--left">
+          <div class="booking--form--info">
+            <h3>Journey Information</h3>
+            <div class="form--location">
+              <div class="input--group">
+                <label class="form--label">Collection Address</label
+                ><input
+                  type="text"
+                  class="form--input"
+                  placeholder="Type location..."
+                />
+              </div>
+              <div class="input--group">
+                <label class="form--label">Destination Address</label
+                ><input
+                  type="text"
+                  class="form--input"
+                  placeholder="Type location..."
+                />
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="booking--form--options">
-          <h3>Options</h3>
-          <div class="form--location">
-            <div class="input--group">
-              <label class="form--label">Direction</label
-              ><input
-                type="text"
-                class="form--input"
-                placeholder="Type location..."
-              />
-            </div>
-            <div class="input--group">
-              <label class="form--label">Passengers</label
-              ><input type="text" class="form--input" placeholder="1" />
+          <div class="booking--form--options">
+            <h3>Options</h3>
+            <div class="form--location">
+              <div class="input--group">
+                <label class="form--label">Direction</label
+                ><select class="input--select">
+                  <option value="1">One Way</option>
+                  <option value="2">Return</option>
+                </select>
+              </div>
+              <div class="input--group">
+                <label class="form--label">Passengers</label>
+                <select class="input--select">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7+</option>
+                </select>
+              </div>
+              <div class="input--group">
+                <label class="form--label">Departure Date</label
+                ><input
+                  type="text"
+                  class="form--input"
+                  placeholder="Any date you want..."
+                />
+              </div>
+              <div class="input--group">
+                <label class="form--label">Departure Time</label
+                ><input
+                  type="text"
+                  class="form--input"
+                  placeholder="We will be on time..."
+                />
+              </div>
             </div>
           </div>
         </div>
-        <div class="booking--form--map">
-          <h3>Map</h3>
-          <div class="form--location">
-            <div class="input--group">
-              <label class="form--label">Distance</label
-              ><input type="text" class="form--input" placeholder="00 Miles" />
-            </div>
-            <div class="input--group">
-              <label class="form--label">Journey Time</label
-              ><input type="text" class="form--input" placeholder="00:00" />
+        <div class="form--right">
+          <div class="booking--form--map">
+            <h3>Map</h3>
+            <div class="form--location">
+              <div id="map" class="map"></div>
+
+              <div class="input--group">
+                <label class="form--label">Distance</label
+                ><input
+                  type="text"
+                  class="form--input"
+                  placeholder="00 Miles"
+                />
+              </div>
+              <div class="input--group">
+                <label class="form--label">Journey Time</label
+                ><input type="text" class="form--input" placeholder="00:00" />
+              </div>
             </div>
           </div>
         </div>
