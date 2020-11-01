@@ -1,10 +1,6 @@
 .header {
   background-color: #14171c;
-  grid-column: full-start/ full-end;
-  color: $color-primary-white;
-  font-size: 1.5rem;
-  align-items: center;
-  justify-content: center;
+  height: 5rem;
 
   .navigation {
     display: flex;
@@ -21,8 +17,11 @@
 //////////////////////////////////////////////////
 //////// LOGO
 .logo {
-  margin: 1rem;
-  width: 30%;
+  margin: 2rem;
+  width: 25%;
+  @media (min-width: 600px) {
+    width: 10%;
+  }
 }
 
 .navigation {
