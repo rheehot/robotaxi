@@ -4,10 +4,16 @@
 
   &__ride {
     margin: 1rem;
+    border: 1px solid #eee;
+    @media (min-width: 600px) {
+      width: 50%;
+    }
+
     h1 {
       font-size: 3rem;
       font-weight: 500;
       margin-bottom: 2rem;
+      text-align: center;
     }
 
     .ride--form {
@@ -17,8 +23,11 @@
       border: 1px solid #eee;
       padding: 1.5rem 1rem;
       margin-bottom: 2.5rem;
+      @media (min-width: 600px) {
+        display: flex;
+        align-items: center;
+        width: 80%;
+      }
     }
   }
-
-  
 }
