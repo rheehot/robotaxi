@@ -29,6 +29,7 @@
                 <label class="form--label">Collection Address</label
                 ><input
                   type="text"
+                  id="pl-input"
                   class="form--input"
                   placeholder="Type location..."
                 />
@@ -37,6 +38,7 @@
                 <label class="form--label">Destination Address</label
                 ><input
                   type="text"
+                  id="pl-input"
                   class="form--input"
                   placeholder="Type location..."
                 />
@@ -109,8 +111,9 @@
         </div>
       </form>
     </div>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
     <script
-      src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&libraries=&v=weekly"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6fiPXzKavlVPhePLI9fiYIZvPCPA1nAM&callback=initAutocomplete&libraries=places&v=weekly"
       defer
     ></script>
     <script src="./js/book.js"></script>
