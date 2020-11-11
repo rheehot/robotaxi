@@ -1,5 +1,5 @@
 .header {
-  height: 10vh;
+  height: 8vh;
   background-color: black;
   display: flex;
   ul li {
@@ -11,15 +11,12 @@
     justify-content: center;
     align-items: center;
     margin: 1.5rem;
-    a {
-      // margin-left: 2rem;
-    }
   }
 
   //////////////////////////////////////////////////
   //////// LOGO
   .logo {
-    width: 40%;
+    width: 30%;
 
     @media (min-width: 600px) {
       width: 15%;
