@@ -1,18 +1,52 @@
 .header {
-  background-color: #14171c;
-  height: 5rem;
-
+  height: 10vh;
+  background-color: black;
+  display: flex;
   ul li {
     list-style: none;
   }
+
+  .navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a {
+      margin-left: 2rem;
+    }
+  }
+
+  //////////////////////////////////////////////////
+  //////// LOGO
+  .logo {
+    width: 35%;
+
+    @media (min-width: 600px) {
+      width: 15%;
+    }
+  }
 }
 
-//////////////////////////////////////////////////
-//////// LOGO
-.logo {
-  margin: 2rem;
-  width: 25%;
+.hamburger {
   @media (min-width: 600px) {
-    width: 10%;
+    display: none;
+  }
+  .line {
+    width: 3rem;
+    height: 3px;
+    background: white;
+    margin: 5px;
+  }
+}
+
+.nav-links {
+  display: none;
+  height: 100%;
+  background-color: purple;
+  @media (min-width: 600px) {
+    display: inline-block;
+  }
+
+  li a {
+    color: white;
   }
 }
