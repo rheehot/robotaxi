@@ -2,8 +2,8 @@ const ride = document.querySelector(".ride");
 const interest = document.querySelector(".ride");
 const eat = document.querySelector(".ride");
 const hotSpot = document.querySelector(".ride");
+const menu = document.querySelector(".hamburger");
 
-
-ride.addEventListener("click", () => {
+menu.addEventListener("click", () => {
   console.log("hey");
 });

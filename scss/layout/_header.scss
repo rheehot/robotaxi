@@ -8,15 +8,18 @@
 
   .navigation {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: space-between;
     margin: 1.5rem;
   }
 
   //////////////////////////////////////////////////
   //////// LOGO
   .logo {
-    width: 30%;
+    width: 25%;
+    img {
+      width: 100%;
+    }
 
     @media (min-width: 600px) {
       width: 15%;
