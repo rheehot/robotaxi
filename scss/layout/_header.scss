@@ -10,15 +10,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 1.5rem;
     a {
-      margin-left: 2rem;
+      // margin-left: 2rem;
     }
   }
 
   //////////////////////////////////////////////////
   //////// LOGO
   .logo {
-    width: 35%;
+    width: 40%;
 
     @media (min-width: 600px) {
       width: 15%;
@@ -40,13 +41,14 @@
 
 .nav-links {
   display: none;
-  height: 100%;
   background-color: purple;
   @media (min-width: 600px) {
-    display: inline-block;
-  }
-
-  li a {
-    color: white;
+    display: flex;
+    height: 100%;
+    li a {
+      color: white;
+      text-decoration: none;
+      margin: 5px;
+    }
   }
 }
