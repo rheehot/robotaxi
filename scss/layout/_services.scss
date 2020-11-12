@@ -1,2 +1,23 @@
-.services {
+.tesla__services {
+  display: grid;
+
+  img {
+    width: 100%;
+  }
+
+  &__content {
+    @media (min-width: 600px) {
+      grid-template-columns: 1fr 1fr;
+      background-color: orchid;
+      img {
+        width: 50%;
+      }
+    }
+  }
+
+  img {
+    @media (min-width: 600px) {
+      width: 50%;
+    }
+  }
 }
