@@ -1,12 +1,18 @@
 .promote {
-  &--download {
-    display: flex;
-    img {
-      width: 100%;
-    }
+  padding: 0 2rem;
+  width: 100%;
+  .tesla--app {
+    width: 100%;
   }
 
-  img {
-    width: 100%;
+  &--download {
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    img {
+      width: 80%;
+    }
   }
 }
