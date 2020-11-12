@@ -1,8 +1,6 @@
 .features {
-  height: 70vh;
-  width: 100%;
-
-  &__ride {
+  &__content {
+    display: none;
     margin: 1rem;
     border: 1px solid #eee;
     @media (min-width: 600px) {
@@ -30,4 +28,11 @@
       }
     }
   }
+  &__content--active {
+    display: inline;
+  }
+}
+
+.booking__tab--active {
+  border-bottom: 2px solid black;
 }

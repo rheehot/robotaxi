@@ -27,62 +27,105 @@
       </nav>
     </header>
 
-    <div class="booking">
-      <!-- functionality content -->
-      <section class="booking__features">
-        <ul>
-          <li class="ride current"><i class="fas fa-car"></i><br />Ride</li>
-          <li class="interest">
-            <i class="fas fa-map-marked-alt"></i><br />Interest
-          </li>
-          <li class="eat"><i class="fas fa-utensils"></i><br />Eat</li>
-          <li class="hotspot">
-            <i class="fas fa-heart"></i><br />
-            Hot spot
-          </li>
-        </ul>
-        <div class="features">
-          <div class="features__ride">
-            <h1>Go anywhere</h1>
-            <input
-              type="text"
-              class="ride--form"
-              placeholder="Type pickup location..."
-            />
-            <input
-              type="text"
-              class="ride--form"
-              placeholder="Type Destination..."
-            />
-            <input type="submit" value="Hire a RoboTaxi" class="form__btn" />
-          </div>
-        </div>
-      </section>
+    <!-- functionality content -->
+    <section class="booking__features">
+      <ul class="booking__features--container">
+        <li class="ride booking__tab booking__tab--active" data-tab="1">
+          <i class="fas fa-car"></i><br />Ride
+        </li>
+        <li class="interest booking__tab" data-tab="2">
+          <i class="fas fa-map-marked-alt"></i><br />Interest
+        </li>
+        <li class="eat booking__tab" data-tab="3">
+          <i class="fas fa-utensils"></i><br />Eat
+        </li>
+        <li class="hotspot booking__tab" data-tab="4">
+          <i class="fas fa-heart"></i><br />
+          Hot spot
+        </li>
+      </ul>
 
-      <!-- intro -->
-      <div class="booking__intro">
-        <img src="./img/robotaxi.jpg" alt="" />
-        <h2 class="heading-2">Anytime, anywhere with Robotaxi!</h2>
+      <div class="features">
+        <div
+          class="features__content features__content--1 features__content--active"
+        >
+          <h1>Go anywhere</h1>
+          <input
+            type="text"
+            class="ride--form"
+            placeholder="Type pickup location..."
+          />
+          <input
+            type="text"
+            class="ride--form"
+            placeholder="Type Destination..."
+          />
+          <input type="submit" value="Hire a RoboTaxi" class="form__btn" />
+        </div>
+        <div class="features__content features__content--2">
+          <h1>Pay anytime with Visa</h1>
+          <input
+            type="text"
+            class="ride--form"
+            placeholder="Type pickup location..."
+          />
+          <input
+            type="text"
+            class="ride--form"
+            placeholder="Type Destination..."
+          />
+          <input type="submit" value="Hire a RoboTaxi" class="form__btn" />
+        </div>
+        <div class="features__content features__content--3">
+          <h1>Get a dev job</h1>
+          <input
+            type="text"
+            class="ride--form"
+            placeholder="Type pickup location..."
+          />
+          <input
+            type="text"
+            class="ride--form"
+            placeholder="Type Destination..."
+          />
+          <input type="submit" value="Hire a RoboTaxi" class="form__btn" />
+        </div>
+        <div class="features__content features__content--4">
+          <h1>Be loved</h1>
+          <input
+            type="text"
+            class="ride--form"
+            placeholder="Type pickup location..."
+          />
+          <input
+            type="text"
+            class="ride--form"
+            placeholder="Type Destination..."
+          />
+          <input type="submit" value="Hire a RoboTaxi" class="form__btn" />
+        </div>
       </div>
+    </section>
 
-      <!-- service content -->
-      <section class="booking__services">
-        <div class="services__content">
-          <div>ser 1</div>
-          <div>ser 2</div>
-          <div>ser 3</div>
-          <div>ser 4</div>
-          <div>ser 5</div>
-          <div>ser 6</div>
-        </div>
-        <img src="./img/service1.jpg" alt="" />
-      </section>
+    <!-- intro -->
+    <div class="booking__intro">
+      <img src="./img/robotaxi.jpg" alt="" />
+      <h2 class="heading-2">Anytime, anywhere with Robotaxi!</h2>
     </div>
 
-    <!-- Footer -->
-    <footer class="footer">
-      <h1>A gift for Tesla, Inc. & my hero, uncle Elon</h1>
-    </footer>
+    <!-- service content -->
+    <section class="booking__services">
+      <div class="services__content">
+        <div>ser 1</div>
+        <div>ser 2</div>
+        <div>ser 3</div>
+        <div>ser 4</div>
+        <div>ser 5</div>
+        <div>ser 6</div>
+      </div>
+      <img src="./img/service1.jpg" alt="" />
+    </section>
+
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
