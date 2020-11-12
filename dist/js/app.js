@@ -15,8 +15,8 @@ const tabsContent = document.querySelectorAll(".features__content");
 
 tabsContainer.addEventListener("click", function (e) {
   const clicked = e.target.closest(".booking__tab");
-  clicked.classList.add("booking__tab--active");
   tab.forEach((t) => t.classList.remove("booking__tab--active"));
+  clicked.classList.add("booking__tab--active");
 
   tabsContent.forEach((c) => c.classList.remove("features__content--active"));
   document
