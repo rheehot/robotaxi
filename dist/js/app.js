@@ -8,7 +8,7 @@ menu.addEventListener("click", () => {
   console.log("hey");
 });
 
-// Booking feature
+// features
 const tabsContainer = document.querySelector(".booking__features--container");
 const tab = document.querySelectorAll(".booking__tab");
 const tabsContent = document.querySelectorAll(".features__content");
