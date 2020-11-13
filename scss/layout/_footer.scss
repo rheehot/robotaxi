@@ -1,4 +1,16 @@
 .footer {
   background-color: #000000;
   color: white;
+
+  ul {
+    display: flex;
+    justify-content: center;
+    li {
+      list-style: none;
+      margin-right: 1rem;
+    }
+  }
+  h2 {
+    text-align: center;
+  }
 }
