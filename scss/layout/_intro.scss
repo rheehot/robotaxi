@@ -5,6 +5,9 @@
   height: 30rem;
   margin: 0 auto;
   position: relative;
+  @media (min-width: 600px) {
+    height: 50rem;
+  }
 
   /* IN THE END */
   overflow: hidden;
