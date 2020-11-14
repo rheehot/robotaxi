@@ -31,17 +31,15 @@
   padding: 0 2rem;
   @media (min-width: 600px) {
     width: 50%;
-    padding: 0;
+    height: 30rem;
+    padding: 2rem;
     border: 1px solid #eee;
   }
 
   &__content {
     display: none;
     margin: 1rem;
-    border: 1px solid #eee;
-    @media (min-width: 600px) {
-      width: 50%;
-    }
+  
 
     h1 {
       font-size: 3rem;
@@ -60,7 +58,7 @@
       @media (min-width: 600px) {
         display: flex;
         align-items: center;
-        width: 50%;
+        width: 90%;
       }
     }
   }
