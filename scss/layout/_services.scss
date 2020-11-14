@@ -9,17 +9,30 @@
     }
     display: grid;
     gap: 5rem;
-    &:nth-child(even) {
-      .content--img {
-        order: -1;
+    @media (min-width: 600px) {
+      grid-template-columns: repeat(2, 1fr);
+      &:nth-child(even) {
+        .content--img {
+          order: -1;
+        }
       }
     }
 
-    @media (min-width: 600px) {
-      grid-template-columns: repeat(2, 1fr);
-    }
     .content--text {
-      @media (min-width: 600px) {
+      .content__header {
+        margin-bottom: 1rem;
+      }
+
+      .content__paragraph {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem;
+
+        a {
+          margin-bottom: 1rem;
+          color: #393c41;
+          text-decoration: underline;
+        }
       }
     }
   }
