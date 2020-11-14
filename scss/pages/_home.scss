@@ -1,44 +1,17 @@
 .tesla {
-  padding: 0 2rem;
   &__features {
-    width: 100%;
-    padding: 0.75rem;
-
-    ul {
-      display: flex;
-      text-align: center;
-      justify-content: center;
-      width: 100%;
-      border-bottom: 1px solid #eee;
-
-      li {
-        width: 25%;
-        font-size: 1.5rem;
-        list-style: none;
-        margin: 0.75rem 0.75rem 0 0.75rem;
-        font-weight: 500;
-        cursor: pointer;
-        i {
-          display: inline-block;
-        }
-      }
-    }
+    padding: 0 2rem;
   }
-  ///////////////////////////////////////////////////// Header func features
 
   &__intro {
     padding: 0 2rem;
     width: 100%;
     background-color: #f1f5f8;
-    img {
-      width: 100%;
-    }
   }
 
   &__services {
     padding: 0 2rem;
     width: 100%;
-
   }
 
   &__promote {
