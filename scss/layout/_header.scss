@@ -17,8 +17,13 @@
   //////// LOGO
   .logo {
     width: 25%;
+    @media (min-width: 600px) {
+      width: 10%;
+    }
     img {
-      width: 100%;
+      @media (min-width: 600px) {
+        width: 100%;
+      }
     }
   }
 }
