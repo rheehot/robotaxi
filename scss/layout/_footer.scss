@@ -1,12 +1,19 @@
 .footer {
   background-color: #000000;
   color: white;
+  
   ul {
     li {
       list-style: none;
+      @media (min-width: 600px) {
+        &:not(:last-child) {
+          margin-right: 3rem;
+        }
+      }
     }
     @media (min-width: 600px) {
       display: flex;
+      justify-content: center;
     }
   }
 
