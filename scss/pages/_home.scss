@@ -2,16 +2,28 @@
   &__features {
     width: 100%;
     padding: 0.75rem;
+    margin-bottom: 5rem;
+    @media (min-width: 600px) {
+      margin-bottom: 10rem;
+    }
   }
 
   &__intro {
-     width: 100%;
+    width: 100%;
     background-color: #f1f5f8;
+    margin-bottom: 5rem;
+    @media (min-width: 600px) {
+      margin-bottom: 10rem;
+    }
   }
 
   &__services {
     padding: 0 2rem;
     width: 100%;
+    margin-bottom: 5rem;
+    @media (min-width: 600px) {
+      margin-bottom: 10rem;
+    }
   }
 
   &__promote {

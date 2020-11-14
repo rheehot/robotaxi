@@ -13,18 +13,26 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    p {
+      text-align: left;
+      margin-bottom: 1rem;
+    }
     &--store {
-      @media (min-width: 600px) {
-        display: inline;
-      }
-      width: 100%;
+      display: flex;
       a {
         width: 100%;
         text-decoration: none;
+        &:not(:last-child) {
+          margin-right: 1rem;
+        }
+
         img {
-          width: 15rem;
+          width: 100%;
           height: 5rem;
         }
+      }
+      @media (min-width: 600px) {
+        display: inline;
       }
     }
   }
