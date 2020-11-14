@@ -8,18 +8,19 @@
     @media (min-width: 600px) {
       border: 1px solid #eee;
       width: 50%;
+      display: grid;
+      align-items: center;
+      justify-content: center;
+      grid-template-columns: repeat(2, 1fr);
     }
 
     li {
-      width: 25%;
+      //width: 25%;
       font-size: 1.5rem;
       list-style: none;
       margin: 0.75rem 0.75rem 0 0.75rem;
       font-weight: 500;
       cursor: pointer;
-      @media (min-width: 600px) {
-        width: 10%;
-      }
       i {
         display: inline-block;
       }
@@ -39,7 +40,6 @@
   &__content {
     display: none;
     margin: 1rem;
-  
 
     h1 {
       font-size: 3rem;
