@@ -5,6 +5,14 @@
     display: grid;
     gap: 5rem;
 
+    @media (min-width: 600px) {
+      &:nth-child(even) {
+        img {
+          order: -1;
+        }
+      }
+    }
+
     img {
       width: 100%;
     }
@@ -18,11 +26,6 @@
 
     .content--img {
       @media (min-width: 600px) {
-      }
-    }
-    &:nth-child(even) {
-      img {
-        order: -1;
       }
     }
   }
