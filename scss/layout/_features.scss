@@ -7,6 +7,7 @@
     border-bottom: 1px solid #eee;
     @media (min-width: 600px) {
       border: 1px solid #eee;
+      width: 50%;
     }
 
     li {
@@ -29,7 +30,8 @@
 .features {
   padding: 0 2rem;
   @media (min-width: 600px) {
-    padding: 0 10rem;
+    width: 50%;
+    padding: 0;
     border: 1px solid #eee;
   }
 

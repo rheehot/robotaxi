@@ -9,7 +9,7 @@ menu.addEventListener("click", () => {
 });
 
 // features
-const tabsContainer = document.querySelector(".booking__features--container");
+const tabsContainer = document.querySelector(".tesla__features--container");
 const tab = document.querySelectorAll(".booking__tab");
 const tabsContent = document.querySelectorAll(".features__content");
 
