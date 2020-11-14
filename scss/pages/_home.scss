@@ -36,7 +36,16 @@
   &__services {
     padding: 0 2rem;
     width: 100%;
+    margin-bottom: 5rem;
+
+    @media (min-width: 600px) {
+      width: 85%;
+      margin: 0 auto;
+      margin-bottom: 5rem;
+    }
   }
+
+  ///////////////////////////////////////////////////// App part
 
   &__promote {
     padding: 0 2rem;
