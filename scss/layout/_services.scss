@@ -2,29 +2,23 @@
   display: grid;
   gap: 5rem;
   &__content {
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
     display: grid;
     gap: 5rem;
-
-    @media (min-width: 600px) {
-      &:nth-child(even) {
-        img {
-          order: -1;
-        }
+    &:nth-child(even) {
+      .content--img {
+        order: -1;
       }
     }
 
-    img {
-      width: 100%;
-    }
     @media (min-width: 600px) {
       grid-template-columns: repeat(2, 1fr);
     }
     .content--text {
-      @media (min-width: 600px) {
-      }
-    }
-
-    .content--img {
       @media (min-width: 600px) {
       }
     }
