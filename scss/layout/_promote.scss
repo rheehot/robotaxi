@@ -1,23 +1,38 @@
 .promote {
-  padding: 0 2rem;
-   width: 100%;
-  .tesla--app {
-    width: 100%;
-    margin-bottom: 2rem;
-  }
-
-  p {
-    text-align: justify;
-  }
-
-  &--download {
-    margin: 2rem;
+  width: 100%;
+  background-color: #afccf8;
+  @media (min-width: 600px) {
     display: flex;
+  }
+
+  &--intro {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    img {
-      width: 80%;
+    &--store {
+      @media (min-width: 600px) {
+        display: inline;
+      }
+      width: 100%;
+      a {
+        width: 100%;
+        text-decoration: none;
+        img {
+          width: 15rem;
+          height: 5rem;
+        }
+      }
+    }
+  }
+
+  &--app {
+    width: 100%;
+    &--img {
+      width: 100%;
     }
   }
 }
