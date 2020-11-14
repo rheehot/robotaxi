@@ -5,6 +5,9 @@
     justify-content: center;
     width: 100%;
     border-bottom: 1px solid #eee;
+    @media (min-width: 600px) {
+      border: 1px solid #eee;
+    }
 
     li {
       width: 25%;
@@ -13,6 +16,9 @@
       margin: 0.75rem 0.75rem 0 0.75rem;
       font-weight: 500;
       cursor: pointer;
+      @media (min-width: 600px) {
+        width: 10%;
+      }
       i {
         display: inline-block;
       }
@@ -22,6 +28,9 @@
 
 .features {
   padding: 0 2rem;
+  @media (min-width: 600px) {
+    border: 1px solid #eee;
+  }
 
   &__content {
     display: none;
