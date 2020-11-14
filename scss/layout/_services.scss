@@ -24,10 +24,14 @@
       }
 
       .content__paragraph {
+        margin-bottom: 2rem;
         display: flex;
         flex-direction: column;
-        margin-bottom: 1rem;
+      }
 
+      .content__list {
+        display: flex;
+        flex-direction: column;
         a {
           margin-bottom: 1rem;
           color: #393c41;
