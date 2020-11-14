@@ -1,25 +1,3 @@
-// slider
-.slider {
-  width: 100%;
-  height: 30rem;
-  margin: 0 auto;
-  position: relative;
-  @media (min-width: 600px) {
-    height: 50rem;
-  }
-
-  /* IN THE END */
-  overflow: hidden;
-
-  .slide {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-  }
+.intro {
+  padding: 0 2rem;
 }

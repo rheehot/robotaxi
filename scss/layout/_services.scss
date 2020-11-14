@@ -1,32 +1,23 @@
 .tesla__services {
   display: grid;
-  gap: 5rem;
+
+  img {
+    width: 100%;
+  }
+
   &__content {
-    display: grid;
-    gap: 5rem;
-
     @media (min-width: 600px) {
-      &:nth-child(even) {
-        img {
-          order: -1;
-        }
+      grid-template-columns: 1fr 1fr;
+      background-color: orchid;
+      img {
+        width: 50%;
       }
     }
+  }
 
-    img {
-      width: 100%;
-    }
+  img {
     @media (min-width: 600px) {
-      grid-template-columns: repeat(2, 1fr);
-    }
-    .content--text {
-      @media (min-width: 600px) {
-      }
-    }
-
-    .content--img {
-      @media (min-width: 600px) {
-      }
+      width: 50%;
     }
   }
 }
