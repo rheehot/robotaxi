@@ -1,7 +1,9 @@
 .header {
-  height: 8vh;
+  height: 5rem;
   background-color: black;
   display: flex;
+  align-items: center;
+  justify-content: center;
   ul li {
     list-style: none;
   }
